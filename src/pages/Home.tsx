@@ -18,7 +18,7 @@ function Home({  }: Props): ReactElement {
           <p className={styles.description} style={{ fontWeight: "bold" }}>
             The Weather Flow {"\b"}
           </p>
-          <span className={styles.description}>is the perfect solution</span>
+          <span className={styles.description}>is the perfect solution!</span>
         </div>
         <p className={styles.description}>Simple as it sounds.</p>
         <div className={styles.weatherContainer}>
