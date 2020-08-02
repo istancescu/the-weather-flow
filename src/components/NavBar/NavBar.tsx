@@ -6,11 +6,14 @@ interface Props {}
 
 export default function NavBar({  }: Props): ReactElement {
   return (
-    <div className={styles.container}>
-      <p className={styles.pageTitle}>the-weather-flow</p>
-      <a className={styles.getStarted} href="/">
-        Get started
-      </a>
-    </div>
+    <head className={styles.container}>
+      <p className={styles.pageTitle}>The Weather Flow</p>
+      <div>
+        <a className={styles.navBarLink}>Features</a>
+        <a className={styles.navBarLink} href="/">
+          Get started
+        </a>
+      </div>
+    </head>
   );
 }
