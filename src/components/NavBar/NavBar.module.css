@@ -2,15 +2,27 @@
   display: flex;
   flex: 1;
   flex-direction: row;
-  justify-content: space-around;
-  background-color: #266dd3;
+  justify-content: space-between;
   align-items: center;
   height: 80px;
+  padding-left: 14.7%;
+  padding-right: 14.7%;
 }
 .pageTitle {
   color: #fafaff;
+  font-size: 30px;
+  line-height: 1.21;
+  font-weight: bold;
+  margin-right: 16.3px;
 }
-.getStarted {
+.navBarLink {
   text-decoration: none;
   color: #fafaff;
+  margin-left: 27px;
+  line-height: 1.19;
+  font-size: 18px;
+}
+.logoContainer {
+  display: flex;
+  flex-direction: row;
 }

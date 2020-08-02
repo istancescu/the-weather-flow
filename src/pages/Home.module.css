@@ -1,0 +1,23 @@
+.container {
+  background-color: #266dd3;
+  padding: 0 14.7% 0 14.7%;
+  height: 100vh;
+}
+.subContainer {
+  padding: 0 14.7% 0 14.7%;
+  margin-top: 37.5px;
+}
+.title {
+  font-size: 30px;
+  color: #fafaff;
+  margin-bottom: 31px;
+}
+.description {
+  font-size: 16px;
+  color: #fafaff;
+  line-height: 19px;
+}
+.descriptionContainer {
+  display: flex;
+  align-items: center;
+}
