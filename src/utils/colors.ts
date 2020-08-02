@@ -1,5 +1,5 @@
-export const CELTIC_BLUE: string = "#266dd3";
-export const GHOST_WHITE: string = "#fafaff";
-export const CARIBBEAN_GREEN: string = "#00c49a";
-export const PRINCETON_ORANGE: string = "#fa8334";
-export const EERIE_BLACK: string = "#1b2021";
+export const celtic_blue: string = "#266dd3";
+export const ghost_white: string = "#fafaff";
+export const caribbean_green: string = "#00c49a";
+export const princeton_orange: string = "#fa8334";
+export const eerie_black: string = "#1b2021";

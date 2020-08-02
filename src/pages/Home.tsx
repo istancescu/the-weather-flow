@@ -1,11 +1,12 @@
 import React, { ReactElement } from "react";
+import NavBar from "../components/NavBar/NavBar";
 
 interface Props {}
 
 function Home({  }: Props): ReactElement {
   return (
     <div>
-      <h1>my homepage!</h1>
+      <NavBar />
     </div>
   );
 }

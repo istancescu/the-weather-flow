@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #266dd3;
+  align-items: center;
+  height: 80px;
+}
+.pageTitle {
+  color: #fafaff;
+}
+.getStarted {
+  text-decoration: none;
+  color: #fafaff;
+}
