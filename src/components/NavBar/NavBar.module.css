@@ -10,12 +10,19 @@
 }
 .pageTitle {
   color: #fafaff;
-  font-size: 21px;
+  font-size: 30px;
+  line-height: 1.21;
   font-weight: bold;
+  margin-right: 16.3px;
 }
 .navBarLink {
   text-decoration: none;
   color: #fafaff;
   margin-left: 27px;
+  line-height: 1.19;
   font-size: 18px;
+}
+.logoContainer {
+  display: flex;
+  flex-direction: row;
 }
