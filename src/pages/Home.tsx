@@ -1,9 +1,24 @@
 import React, { ReactElement } from "react";
 import NavBar from "../components/NavBar/NavBar";
 import styles from "./Home.module.css";
-import WeatherTile from "../components/NavBar/WeatherTile";
+import { WeatherList } from "../components/WeatherTile/WeatherTile";
 
 interface Props {}
+
+const Data = [
+  {
+    country: "RO",
+    temperature: 20,
+    scale: "C",
+    city: "Bucuresti"
+  },
+  {
+    country: "RO",
+    temperature: 20,
+    scale: "C",
+    city: "Iasi"
+  }
+];
 
 function Home({  }: Props): ReactElement {
   return (
@@ -21,7 +36,7 @@ function Home({  }: Props): ReactElement {
           <span className={styles.description}>is the perfect solution!</span>
         </div>
         <p className={styles.description}>Simple as it sounds.</p>
-        <WeatherTile />
+        <WeatherList data={Data} />
       </div>
     </div>
   );
