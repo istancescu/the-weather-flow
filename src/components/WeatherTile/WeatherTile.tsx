@@ -20,7 +20,12 @@ const WeatherContainer: React.FC = ({ children }) => {
   );
 };
 
-const WeatherCard = ({ temperature, scale, city, country }: Props) => {
+const WeatherCard: React.FC<Props> = ({
+  temperature,
+  scale,
+  city,
+  country
+}) => {
   return (
     <div className={styles.cities}>
       <div>
