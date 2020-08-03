@@ -17,6 +17,12 @@ const Data = [
     temperature: 20,
     scale: "C",
     city: "Iasi"
+  },
+  {
+    country: "IT",
+    temperature: 14,
+    scale: "C",
+    city: "Milan"
   }
 ];
 
