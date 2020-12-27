@@ -2,14 +2,15 @@ import React, { ReactElement } from "react";
 import NavBar from "../components/NavBar/NavBar";
 import styles from "./Home.module.css";
 import WeatherTile from "../components/NavBar/WeatherTile";
+import { Container } from "@material-ui/core";
 
 interface Props {}
 
-function Home({  }: Props): ReactElement {
+function Home(): ReactElement {
   return (
-    <div className={styles.container}>
-      <NavBar />
-      <div className={styles.subContainer}>
+    <Container className={styles.container} maxWidth="xl">
+      <Container maxWidth="lg">
+        <NavBar />
         <h1 className={styles.title}>Find weather anywhere, at any time.</h1>
         <p className={styles.description}>
           Tired of the need to carry an umbrella?
@@ -22,8 +23,8 @@ function Home({  }: Props): ReactElement {
         </div>
         <p className={styles.description}>Simple as it sounds.</p>
         <WeatherTile />
-      </div>
-    </div>
+      </Container>
+    </Container>
   );
 }
 

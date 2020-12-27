@@ -4,7 +4,7 @@ import styles from "./NavBar.module.css";
 
 interface Props {}
 
-export default function NavBar({  }: Props): ReactElement {
+export default function NavBar(): ReactElement {
   return (
     <head className={styles.container}>
       <div className={styles.logoContainer}>
